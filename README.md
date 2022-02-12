@@ -1,6 +1,6 @@
 <h1 align="center">Myfxbook API Client</h1>
 
-<p align="center"><img width="150" src="https://github.com/CarlosHe/myfxbook-api-client/blob/master/myfxbook-api-client-logo.png?raw=true" alt="myfxbook-api-client"></p>
+<p align="center"><img width="150" src="https://raw.githubusercontent.com/CarlosHe/myfxbook-api-client/main/myfxbook-api-client-logo.png" alt="myfxbook-api-client"></p>
 
 A Delphi client for working with Myfxbook API - https://www.myfxbook.com/api
 
