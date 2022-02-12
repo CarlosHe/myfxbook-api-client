@@ -1,0 +1,9 @@
+{
+	"name": "myfxbook-api-client",
+	"description": "https://github.com/CarlosHe/myfxbook-api-client",
+	"version": "1.0.0",
+	"homepage": "https://github.com/CarlosHe/myfxbook-api-client",
+	"mainsrc": "./src/",
+	"projects": [],
+	"dependencies": {}
+}
