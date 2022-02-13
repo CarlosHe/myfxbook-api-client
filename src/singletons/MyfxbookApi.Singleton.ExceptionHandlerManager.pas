@@ -29,6 +29,9 @@ type
 
 implementation
 
+uses
+  MyfxbookApi.Resource;
+
 { TMyfxbookApiExceptionHandlerManager }
 
 constructor TMyfxbookApiExceptionHandlerManager.Create;
@@ -54,7 +57,7 @@ var
   LExceptClass: EMyfxbookApiExceptionClass;
 begin
   if not FExceptClassCollection.ContainsKey(AErrorMessage) then
-    raise Exception.Create(Format('Unknown error occurred: %s', [AErrorMessage]));
+    raise Exception.Create(Format(sUnknownErrorOccurred, [AErrorMessage]));
 
   LExceptClass := FExceptClassCollection.Items[AErrorMessage];
   raise LExceptClass.Create;

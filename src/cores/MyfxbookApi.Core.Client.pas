@@ -153,6 +153,7 @@ begin
   LJSONObjectLogin := Login();
   try
     FSessionId := LJSONObjectLogin.GetValue<string>('session');
+    Result := FSessionId;
   finally
     LJSONObjectLogin.Free;
   end;
